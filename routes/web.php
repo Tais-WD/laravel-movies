@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'MovieController@index3');
+
+Route::get('/movies/detail/venom', 'MovieController@detail');
