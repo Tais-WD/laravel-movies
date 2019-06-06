@@ -11,6 +11,12 @@
 |
 */
 
+// movies etc.
 Route::get('/', 'MovieController@index3');
 
 Route::get('/movies/detail/venom', 'MovieController@detail');
+
+
+// world database
+Route::get('/regions', 'RegionController@index');
+Route::get('/regions/western-europe', 'RegionController@westernEurope');
